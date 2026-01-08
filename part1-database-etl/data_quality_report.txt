@@ -1,0 +1,40 @@
+==========================================================
+FLEXIMART ETL DATA QUALITY REPORT
+Generated on: 2026-01-08
+==========================================================
+
+1. CUSTOMERS_RAW.CSV PROCESSING
+----------------------------------------------------------
+- Total records extracted: 25
+- Duplicate records removed: 1 (C001)
+- Missing emails handled: 5 (C003, C007, C012, C018, C023)
+- Phone numbers standardized: 19
+- Date formats unified: 24
+- Records successfully loaded: 24
+
+2. PRODUCTS_RAW.CSV PROCESSING
+----------------------------------------------------------
+- Total records extracted: 20
+- Missing prices imputed: 3 (P003, P010, P017)
+- Missing stock values handled: 1 (P006 set to 0)
+- Category names standardized: 20 (Unified to Title Case)
+- Records successfully loaded: 20
+
+3. SALES_RAW.CSV PROCESSING
+----------------------------------------------------------
+- Total records extracted: 40
+- Duplicate transactions removed: 1 (T001)
+- Missing Customer IDs (Orphans) removed: 3 (T004, T016, T030)
+- Missing Product IDs (Orphans) removed: 2 (T008, T025)
+- Date formats unified: 34
+- Records successfully loaded: 34
+
+4. FINAL DATABASE SUMMARY (Database: fleximart)
+----------------------------------------------------------
+- Total Customers: 24
+- Total Products: 20
+- Total Successful Transactions: 34
+
+Status: SUCCESS
+Pipeline execution completed with no critical errors.
+==========================================================
