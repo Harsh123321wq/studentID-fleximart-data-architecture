@@ -25,3 +25,25 @@ replay_pid*
 
 # Kotlin Gradle plugin data, see https://kotlinlang.org/docs/whatsnew20.html#new-directory-for-kotlin-data-in-gradle-projects
 .kotlin/
+# Python environment and cache
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Database and Logs
+*.log
+*.sqlite
+*.db
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Large files or temp data
+*.zip
+*.tar.gz
