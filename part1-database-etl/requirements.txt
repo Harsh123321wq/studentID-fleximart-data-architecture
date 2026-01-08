@@ -1,0 +1,9 @@
+# Data Manipulation
+pandas==2.2.0
+
+# Database Connectivity
+mysql-connector-python==8.3.0
+sqlalchemy==2.0.25
+
+# Utility for Date Handling
+python-dateutil==2.8.2
